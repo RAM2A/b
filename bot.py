@@ -14,7 +14,7 @@ load_dotenv()
 
 # Configs
 API_HASH = os.environ.get('API_HASH', "beb7e4b83ada668fa85f9a9b56338f1d") # Api hash
-APP_ID = int(os.environ.get('APP_ID', "24665357") # Api id/App id
+APP_ID = int(os.environ.get('APP_ID', "24665357")) # Api id/App id
 BOT_TOKEN = os.environ.get('BOT_TOKEN', "6700540841:AAEzEG75XEQXqfTGmIvy136zVclAUBxQKOI") # Bot token
 OWNER_ID = os.environ.get('OWNER_ID', "1717511106") # Your telegram id
 AS_ZIP = bool(os.environ.get('AS_ZIP', False)) # Upload method. If True: will Zip all your files and send as zipfile | If False: will send file one by one
